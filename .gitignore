@@ -21,10 +21,6 @@ out/
 build/
 dist/
 
-# VS Code
-.vscode/
-.history/
-
 # Python
 __pycache__/
 *.py[cod]
