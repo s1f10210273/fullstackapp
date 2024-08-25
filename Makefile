@@ -2,7 +2,7 @@
 .PHONY: install dev build start backend frontend clean down lint docker-clean create-venv setup docker-build
 
 # 依存関係のインストール
-install:
+install: create-venv
 	@echo "Installing dependencies..."
 	cd frontend && pnpm install
 	cd backend && \
